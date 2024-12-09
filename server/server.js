@@ -4,6 +4,7 @@ const cookieParser = require("cookie-parser");
 const { auth } = require("express-openid-connect");
 const session = require('express-session');
 const passport = require('./config/passport-setup');
+const path = require('path'); 
 require("dotenv").config();
 require("./config/mongoose.config");
 
