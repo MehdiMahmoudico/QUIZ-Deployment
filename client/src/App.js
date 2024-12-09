@@ -104,7 +104,7 @@ const MainRoutes = () => {
           </Adminroute>
         }
       />
-      <Route path="*" element={<Navigate to="/" />} />
+     
     </Routes>
   );
 };
